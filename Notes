@@ -1,0 +1,8 @@
+POM - Page Object Model
+It is more successful in applications having similar pages
+It is based on pages. Say 1 java file per page
+It follows the concept of inheritance and encapsulation
+POM can be implemented using Junit or TestNG
+
+Inheritance - IS A RELATIONSHIP, where one class inherits another class
+Encapsulation - HAS A RELATIONSHIP, where one object is inside another object

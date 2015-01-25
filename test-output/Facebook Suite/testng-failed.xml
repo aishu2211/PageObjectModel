@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Facebook Suite]">
+  <listeners>
+    <listener class-name="Listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="com.selenium.facebook.testcases.LoginTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- com.selenium.facebook.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test name="Find Friend Test(failed)">
+    <classes>
+      <class name="com.selenium.facebook.testcases.FindaFriendTest">
+        <methods>
+          <include name="findFriend"/>
+          <include name="messageFriend"/>
+        </methods>
+      </class> <!-- com.selenium.facebook.testcases.FindaFriendTest -->
+    </classes>
+  </test> <!-- Find Friend Test(failed) -->
+  <test name="Change Pic Test(failed)">
+    <classes>
+      <class name="com.selenium.facebook.testcases.ChangePicTest">
+        <methods>
+          <include name="changePic"/>
+        </methods>
+      </class> <!-- com.selenium.facebook.testcases.ChangePicTest -->
+    </classes>
+  </test> <!-- Change Pic Test(failed) -->
+</suite> <!-- Failed suite [Facebook Suite] -->
